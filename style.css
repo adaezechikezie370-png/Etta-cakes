@@ -1,0 +1,112 @@
+/* General page setup */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fffafc; /* soft pastel background */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header and logo */
+header {
+  text-align: center;
+  padding: 40px;
+  background-color: #fce4ec; /* pastel pink */
+}
+header h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3.5em;
+  color: #f8bbd0; /* lighter pastel pink */
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f3e5f5; /* pastel lavender */
+  padding: 10px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #6a1b9a; /* deep purple accent */
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ad1457; /* pastel red hover */
+}
+
+/* Product grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+.product {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.add-to-cart {
+  background-color: #ef9a9a; /* pastel red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-to-cart:hover {
+  background-color: #e57373; /* darker pastel red */
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #f8bbd0;
+}
+
+/* Forms (reviews, complaints, contact) */
+form {
+  margin: 20px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background-color: #ef9a9a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #e57373;
+}
+
+/* Footer */
+footer {
+  background-color: #f3e5f5;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  }
